@@ -1,0 +1,32 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(190, 187, 187);
+}
+
+.recipe-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipe-item {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.recipe-item:last-child {
+    margin-right: 0px;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.recipe-link:hover {
+    text-decoration: underline;
+}
